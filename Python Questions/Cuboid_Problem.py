@@ -1,0 +1,24 @@
+# Problem: Generate all possible 3D coordinates
+# where i + j + k is not equal to n.
+
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+
+    cuboid_list = [[i , j , k]
+                   for i in range(x+1) 
+                   for j in range(y+1) 
+                   for k in range(z+1) 
+                   if i + j + k !=n]
+    
+    # if we want to us nested loops rather than list comprehension
+   # for i in range(x+1):
+    #    for j in range(y+1):
+     #       for k in range(z+1):
+      #          if i + j + k !=n :
+       #             cuboid_list.append([i , j , k])
+                    
+
+    print(cuboid_list)
