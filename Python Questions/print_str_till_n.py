@@ -26,3 +26,16 @@ if __name__ == '__main__':
 #     "1" + "2" + "3" + "4" + "5"
 
 # Final Output: "12345"
+
+# Alternative method using for loop: 
+    
+
+    
+# if __name__ == '__main__':
+#     n = int(input())
+#     a = ""
+
+#     for i in range(1, n + 1):
+#         a += str(i)
+
+#     print(a)
