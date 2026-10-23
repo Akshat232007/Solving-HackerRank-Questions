@@ -16,4 +16,4 @@ if __name__ == '__main__':
     for i in range(len(marks)):
         sum += marks[i]
     avg = sum / len(marks)
-    print(f}"{avg:.2f}")
+    print(f"{avg:.2f}")
